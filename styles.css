@@ -125,13 +125,13 @@ blockquote {
 /*Section Four*/
 .section-four {
     background-color: #3882F6;
-    margin: 80px 160px;
+    margin: 90px 160px;
     border-radius: 8px;
     box-sizing: border-box;
     display: flex;
-    flex-wrap: wrap;
     padding: 36px 100px;
     font-weight: 200;
+    justify-content: space-between;
 }
 .container-four {
     color: white;
@@ -142,7 +142,13 @@ blockquote {
 }
 .section-four button {
     border: 2px solid white;
+}
+/*Footer*/
+.footer {
+    background-color: black;
+    color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
+    padding: 30px;
 }
