@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+
+.header {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* could probably use justify-content for easier,
+but i want it to look the way i want :) */
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 225px;
+}
+.header-links{
+    margin-right: 225px;
+}
+.header-links a {
+    color: #E5E7EB;
+}
+/*Section One*/
+.section-one {
+    display: flex;
+    padding: 100px 225px 120px;
+
+}
+.container-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.header, .section-one {
+    background-color: #1F2937;
+    color: white;
+}
+.main-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text-one {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 28px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/*Section Two*/
+.section-two {
+    padding-bottom: 125px;
+}
+.section-two h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    margin: 10px;
+}
+.item {
+    flex-wrap: wrap;
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    color: #232424cb;
+}
+.item img {
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+}
+/*Section Three*/
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 800px;
+}
+.quote {
+    padding: 125px;
+    padding-bottom: 100px;
+}
+.section-three p {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: end;
+}
+
+/*Section Four*/
+.section-four {
+    background-color: #3882F6;
+    margin: 80px 160px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 36px 100px;
+    font-weight: 200;
+}
+.container-four {
+    color: white;
+}
+.section-four h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-four button {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
